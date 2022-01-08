@@ -73,6 +73,17 @@
     max-width: 90%;
 }
 
+/* ----- */
+
+.main-content{
+    display: flex;
+    flex-direction: column;
+}
+
+.main-content h1{
+    align-self: center;
+}
+
 /* ------------------------------------------------- */
 
 .main-contacts{

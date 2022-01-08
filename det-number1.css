@@ -4,7 +4,7 @@ body{
 }
 
 .content{
-    margin-top: 6%;
+    margin-top: 4.5%;
     margin-left: 1%;
     margin-right: 1%;
 }
@@ -48,18 +48,56 @@ body{
 
 /* --------------------------------------------------------------- */
 
+.main-content{
+    display: grid;
+    grid-template-areas: 
+    'h1 p'
+    'slider p'
+    'h3 p';
 
+    grid-template-columns: 30% 70%;
+    grid-gap: 2%;
+}
+
+h1{
+    grid-area: h1;
+
+    margin: 2% 0;
+    justify-self: center;
+}
+
+h3{
+    grid-area: h3;
+
+    justify-self: center;
+
+    font-size: 150%;
+}
+
+.slider{
+    grid-area: slider;
+
+    justify-self: center;
+}
+
+p{
+    grid-area: p;
+
+    align-self: center;
+
+    font-size: 150%;
+}
 
 /* ----------Slider---------- */
 
 .slider{
     position: relative;
 
-    max-width: 30%;
-    margin: 1% 5%;
+    width: 90%;
 
     overflow: hidden;
-    border: 2px solid black;
+    border: 10px double rgb(0, 85, 98);
+    border-radius: 10%;
 }
 
 .slider-line{
@@ -102,10 +140,6 @@ button:hover{
 
 
 /* --------------------------------------------------------------- */
-
-h1{
-    text-align: center;
-}
 
 .desc{
     display: flex;
