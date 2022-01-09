@@ -51,6 +51,12 @@ body{
     border: 1px solid black;
 }
 
+
+
+.navig3{
+    background-color: rgb(95, 160, 137);
+}
+
 /* ------------------------------------------------------------------------ */
 
 .contact{
@@ -62,11 +68,12 @@ body{
 
 .phone{
     width: 35%;
-    margin-bottom: 1%;
+    margin-bottom: 3%;
 
     border: 10px ridge rgb(105, 105, 105);
     border-radius: 20%;
     background-color: rgba(137, 43, 226, 0.36);
+    box-shadow: 10px 10px 15px black;
 }
 
 .email{
@@ -75,6 +82,7 @@ body{
     border: 10px ridge rgb(105, 105, 105);
     border-radius: 20%;
     background-color: rgba(43, 52, 226, 0.36);
+    box-shadow: 10px 10px 15px black;
 }
 
 

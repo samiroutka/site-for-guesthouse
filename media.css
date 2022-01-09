@@ -67,12 +67,6 @@
     font-size: 300%;
 }
 
-
-
-.slider{
-    max-width: 90%;
-}
-
 /* ----- */
 
 .main-content{
@@ -80,22 +74,42 @@
     flex-direction: column;
 }
 
+
 .main-content h1{
     align-self: center;
+    margin-top: 0;
+}
+
+.slider{
+    width: 90%;
+    align-self: center;
+}
+
+.main-content h3{
+    align-self: center;
+}
+
+.main-content p{
+    align-self: center;
+
+    font-size: 200%;
 }
 
 /* ------------------------------------------------- */
 
 .phone{
     width: 80%;
+    margin-bottom: 7%;
 
     border: 25px ridge rgb(105, 105, 105);
+    box-shadow: 30px 30px 30px black;
 }
 
 .email{
     width: 80%;
 
     border: 25px ridge rgb(105, 105, 105);
+    box-shadow: 30px 30px 30px black;
 }
 
 
@@ -105,4 +119,6 @@ h2{
 
 p{
     font-size: 250%;
+}
+
 }

@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 
 body{
     margin: 0;
@@ -23,7 +24,7 @@ body{
 
     text-align: center;
 
-    background-color: cadetblue;
+    background-color: rgb(95, 160, 137);
     box-shadow: 0px 10px 20px black;
 }
 
@@ -32,7 +33,7 @@ body{
 
     text-decoration: none;
     color: white;
-    font-size: 200%;
+    font-size: 170%;
     font-weight: 900;
 }
 
@@ -96,7 +97,7 @@ p{
     width: 90%;
 
     overflow: hidden;
-    border: 10px double rgb(0, 85, 98);
+    border: 10px ridge rgb(0, 151, 174);
     border-radius: 10%;
 }
 
@@ -112,8 +113,8 @@ p{
 
 button{
     background-color: rgba(0, 0, 255, 0);
-    font-size: 500%;
-    font-weight: 300;
+    font-size: 300%;
+    font-weight: 100;
     border: none;
     padding: 0 5%;
 }
@@ -141,12 +142,23 @@ button:hover{
 
 /* --------------------------------------------------------------- */
 
-.desc{
-    display: flex;
-    flex-direction: row;
+.main-content h1{
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 0;
+
+    font-family: 'Lobster', cursive;
 }
 
-h3{
+.main-content h3{
     text-align: center;
+
+    font-family: 'Lobster', cursive;
+}
+
+.main-content p{
+    font-size: 190%;
+
+    font-family: 'Lobster', cursive;
 }
 
