@@ -28,7 +28,7 @@ setInterval(function(){
     console.log('slider.offsetWidth: ' + slider.offsetWidth)
     console.log('slider.offsetWidth*count: ' + slider.offsetWidth*count)
 
-}, 1500)
+}, 10000)
 
 
 start()
