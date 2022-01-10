@@ -58,5 +58,25 @@ body{
 
 /* ---------------------------------------------------------------------- */
 
+/* -----SLider----- */
+
+.slider{
+    margin: 7% auto;
+    margin-bottom: 0;
+
+    width: 90%;
+    overflow: hidden;
+
+    border: 3px solid black;
+}
+
+.slider-line{
+    display: flex;
+    flex-direction: row;
+
+    transition: all 1s;
+}
+
+/* -----Slider-end----- */
 
 
