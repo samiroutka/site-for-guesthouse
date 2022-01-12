@@ -19,9 +19,11 @@ function start (){
 
 setInterval(function(){
     count++
+    sliderLine.style.transition = 'all 3s ease-in-out'
 
     if (count > imgs.length-1){
         count = 0
+        sliderLine.style.transition = 'all 1s ease-in-out'
     }
 
     sliderLine.style.transform = 'translate(-' + slider.offsetWidth*count + 'px)'

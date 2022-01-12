@@ -81,7 +81,7 @@ p{
     display: flex;
     flex-direction: row;
 
-    transition: all 1s;
+    transition: all 3s ease-in-out;
 }
 
 /* -----Slider-end----- */
