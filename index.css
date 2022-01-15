@@ -1,174 +1,88 @@
-@import url('https://fonts.googleapis.com/css2?family=Bellota:ital,wght@1,300&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 
 body{
     margin: 0;
-    margin-bottom: 3%;
-    background-color: rgba(222, 184, 135, 0.598);
-
-    font-family: 'Bellota', cursive;
 }
 
-h1{
-    margin: 0;
-    text-align: center;
+.content{
+    margin-top: 6%;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+/* -------------------------------------------------------------------------- */
+
+.navig{
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    display: flex;
+    flex-direction: row;
     
+    width: 100%;
+    height: fit-content;
+    z-index: 10;
+
+    background-color: cadetblue;
+
+    box-shadow: 0px 10px 20px black;
+}
+
+.navigs{
+    padding: 1%;
+
+    text-align: center;
+    width: 33%;
+}
+
+.navigs a{
+    padding: 3% 35%;
+
+    text-decoration: none;
+    color: white;
     font-size: 150%;
 }
 
-h3{
-    margin: 0;
-    text-align: center;
-
-    font-size: 200%;
-    color: crimson;
+.navigs:hover{
+    font-weight: 900;
+    text-decoration: underline;
+    background-color: rgb(155, 208, 209);
+    border: 1px solid black;
 }
 
-h2{
+
+
+.navig1{
+    background-color: rgb(95, 160, 137);
+}
+
+/* ---------------------------------------------------------------------- */
+
+p{
+    font-size: 250%;
+    font-family: 'Lobster', cursive;
     text-align: center;
-    margin: 0 auto;
+}
+
+/* -----SLider----- */
+
+.slider{
+    margin: 0% auto;
     margin-bottom: 0;
 
-    width: 90%;
-
-    font-size: 130%;
-    padding-bottom: 3%;
-    border-bottom: 2px solid black;
-}
-
-h4{
-    margin: 0;
-
-    width: 90%;
-
-    text-align: center;
-    font-size: 90%;
-}
-
-h5{
-    text-align: center;
-    margin: 0;
-    width: 90%;
-
-    font-size: 200%;
-}
-
-.what{
-    width: 90%;
-    margin-bottom: 5%;
-}
-
-ul, ol{
-    margin: 1%;
-}
-
-li{
-    width: 90%;
-}
-
-
-
-.price, .text00{
-    background-color: rgb(255, 198, 124);
-    border-radius: 20%;
-}
-
-.text0{
-    background-color: rgba(255, 198, 124, 0.605);
-    text-align: center;
-    border-radius: 20%;
-    color: blue;
-}
-
-/* ---------------------------------------------------- */
-
-.ar-h1{
-    grid-area: h1;
     width: 80%;
+    overflow: hidden;
+
+    border: 3px solid black;
 }
 
-.ar-img1{
-    grid-area: img1;
-    width: 100%;
-}
-
-.ar-h3{
-    grid-area: h3;
-    width: 80%;
-}
-
-.ar-img2{
-    grid-area: img2;
-    width: 100%;
-}
-
-/* ------------------------------------------------------ */
-
-.start{
-    display: grid;
-    grid-template-areas: 
-    'img1 h1'
-    'h3 img2'
-    ;
-
-
-
-    margin: 5% auto;
-    margin-bottom: 0;
-    padding: 5%;
-
-    box-sizing: border-box;
-    width: 90%;
-    
-    background-color: rgba(255, 255, 255, 0.598);
-    border: 8px ridge gray;
-    border-radius: 15%;
-    box-shadow: 3px 3px 10px teal;
-}
-
-.work{
+.slider-line{
     display: flex;
-    flex-direction: column;
-    margin: 5% auto;
-    margin-bottom: 0;
+    flex-direction: row;
 
-
-    width: 90%;
-
-    background-color: rgba(255, 255, 255, 0.598);
-    border: 8px ridge gray;
-    border-radius: 15%;
-    box-shadow: 3px 3px 10px green;
+    transition: all 3s ease-in-out;
 }
 
-.dop{
-    margin: 0 auto;
-    margin-top: 5%;
-
-    border-top: 2px dashed black;
-    width: 80%;
-}
-
-.img1, .kitchen{
-    margin: 2% auto;
-    width: 90%;
-}
-
-.problem{
-    display: flex;
-    flex-direction: column;
-    margin: 5% auto;
-    margin-bottom: 0;
-
-
-    width: 90%;
-
-    background-color: rgba(255, 255, 255, 0.598);
-    border: 8px ridge gray;
-    border-radius: 15%;
-    box-shadow: 3px 3px 10px red;
-}
-
-
-
+/* -----Slider-end----- */
 
