@@ -52,9 +52,9 @@ body{
 .main-content{
     display: grid;
     grid-template-areas: 
-    'h1 p'
-    'slider p'
-    'h3 p';
+    'h1 opis'
+    'slider opis'
+    'h3 opis';
 
     grid-template-columns: 30% 68%;
     grid-gap: 2%;
@@ -81,12 +81,12 @@ h3{
     justify-self: center;
 }
 
-p{
-    grid-area: p;
+.opis{
+    grid-area: opis;
 
     align-self: center;
 
-    font-size: 150%;
+    font-size: 100%;
 }
 
 /* ----------Slider---------- */
@@ -97,7 +97,7 @@ p{
     width: 90%;
 
     overflow: hidden;
-    border: 10px ridge rgb(0, 151, 174);
+    border: 8px ridge cadetblue;
     border-radius: 10%;
 }
 

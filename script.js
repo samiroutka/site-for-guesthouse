@@ -1,42 +1,45 @@
-const images = document.querySelectorAll('.slider .slider-line img')
-const image = document.querySelector('.slider-line img')
-const sliderLine = document.querySelector('.slider-line')
+const imgs = document.querySelectorAll('.slider-line img')
+let img1 = document.querySelector('img:first-child')
+const slider = document.querySelector('.slider')
+const sliderLine = document.querySelector('.slider-line') 
+
+const leftBtn = document.querySelector('.left-btn')
+const rightBtn = document.querySelector('.right-btn')
+
+let forImgs = img1.offsetHeight/img1.offsetWidth
 let count = 0
-let width
 
-function init () {
-    width = document.querySelector('.slider').offsetWidth
-    
-    sliderLine.style.width = width * images.length + 'px'
-    images.forEach(item => {
-        item.style.width = width + 'px'
-        item.style.height = width*1,335616438356164 + 'px'
+
+
+
+function init (){
+    imgs.forEach(item =>{
+        item.style.width = slider.offsetWidth + 'px'
     })
-
-    sliderLine.style.transform = 'translate(' + count*width + 'px)'
+    slider.style.height = img1.offsetHeight + 'px'
 }
 
-window.addEventListener('resize', init)
-init()
 
-
-document.querySelector('.left-btn').addEventListener('click', function(){
-    count++
-
-    if (count > 0) {
-        count = -2
-    }
-
-    sliderLine.style.transform = 'translate(' + count*width + 'px)'
-})
-
-document.querySelector('.right-btn').addEventListener('click', function(){
+rightBtn.addEventListener('click', function (){
     count--
 
-    if (count < -2) {
+    if(count < -2){
         count = 0
     }
 
-    sliderLine.style.transform = 'translate(' + count*width + 'px)'
+    sliderLine.style.transform = 'translate(' + count*slider.offsetWidth + 'px)'
 })
+
+leftBtn.addEventListener('click', function (){
+    count++
+
+    if(count > 0){
+        count = -2
+    }
+
+    sliderLine.style.transform = 'translate(' + count*slider.offsetWidth + 'px)'
+})
+
+init()
+window.addEventListener('resize', init)
 

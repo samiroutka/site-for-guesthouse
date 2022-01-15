@@ -17,7 +17,7 @@
 
 .navigs{
     padding: 2% 0;
-    text-align: center;
+    text-align: center; 
     font-size: 200%;
 }
 
@@ -82,7 +82,7 @@
 }
 
 .slider{
-    width: 100%;
+    width: 90%;
     align-self: center;
 }
 
@@ -94,6 +94,10 @@
     align-self: center;
 
     font-size: 200%;
+}
+
+.opis{
+    font-size: 80%;
 }
 
 /* ------------------------------------------------- */
