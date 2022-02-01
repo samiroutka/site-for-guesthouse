@@ -31,8 +31,10 @@ body{
 
 .navigs{
     padding: 1%;
+    transition: padding-top .1s ease-in-out;
 
     text-align: center;
+    border: 1px solid cadetblue;
     width: 33%;
 }
 
@@ -45,6 +47,7 @@ body{
 }
 
 .navigs:hover{
+    padding-top: 0;
     font-weight: 900;
     text-decoration: underline;
     background-color: rgb(155, 208, 209);

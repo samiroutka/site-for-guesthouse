@@ -1,4 +1,4 @@
-@media only screen and (max-width: 1100px) {
+@media screen and (min-width: 965px) {
     
 .content{
     margin-top: 15%;
@@ -26,7 +26,6 @@
 }
 
 
-
 .nav-detail{
     padding: 0;
 }
@@ -34,6 +33,10 @@
 .nav-detail a{
     padding: 0 44%;
     font-size: 170%;
+}
+
+.navigs:hover{
+    padding-top: 1%;
 }
 
 /* ---------------------------------------------------- */

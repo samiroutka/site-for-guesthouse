@@ -25,6 +25,7 @@ body{
     text-align: center;
 
     background-color: rgb(95, 160, 137);
+    border: 1px solid cadetblue;
     box-shadow: 0px 10px 20px black;
 }
 
