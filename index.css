@@ -39,7 +39,7 @@ body{
 }
 
 .navigs a{
-    padding: 3% 35%;
+    padding: 4% 35%;
 
     text-decoration: none;
     color: white;
@@ -47,7 +47,7 @@ body{
 }
 
 .navigs:hover{
-    padding-top: 0;
+    padding-top: .5%;
     font-weight: 900;
     text-decoration: underline;
     background-color: rgb(155, 208, 209);
@@ -77,6 +77,8 @@ p{
     width: 80%;
     z-index: 1;
     overflow: hidden;
+
+    border-radius: 5%;
 
     border: 3px solid black;
 }
